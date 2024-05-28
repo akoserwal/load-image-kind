@@ -12,3 +12,7 @@ Script to load local build docker images to [Kind](https://kind.sigs.k8s.io/).
 ``` Load local build image to kind cluster 
 Usage: ./load-image-kind.sh <docker-image-with-tag>
 Example: ./load-image-kind.sh localhost/goechoapptest ```
+
+## Run directly
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/akoserwal/load-image-kind/main/load-image-kind.sh)" localhost/goechoapptest `
